@@ -29,5 +29,5 @@ function timeCount(){
 	}
 	timeStr= hr+":"+min+":"+sec+" "+meridium;
 	p_js.innerHTML= dateStr+", "+timeStr;
-	setTimeOut("timeCount()",1000);
+	setTimeout("timeCount()",1000);
 }
